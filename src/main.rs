@@ -61,7 +61,7 @@ fn main() -> Result<(), RocliError> {
     let mut config: Config = read_yaml(cli.config)?;
     if cli.rand_tag_id {
         config.tag_identity.id = uuid::Uuid::from_bytes(
-            rand::thread_rng().gen::<[u8; 16]>()
+            rand::rng().random::<[u8; 16]>()
         );
     }
 
