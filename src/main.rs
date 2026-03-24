@@ -7,7 +7,7 @@ use error::RocliError;
 use subcmds::{make_endorsements, make_refvals, make_corim};
 use tools::{read_yaml, write_json, dump_json, read_bytes};
 use tags::Config;
-use rand::Rng;
+use rand::RngExt;
 
 mod tags;
 mod tools;
