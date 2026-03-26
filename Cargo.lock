@@ -896,7 +896,7 @@ dependencies = [
 [[package]]
 name = "rust-rsi"
 version = "0.1.0"
-source = "git+https://github.com/islet-project/rust-rsi#fcd1ed1a6f9b41e1d74c708c58c4b9c2d08bf128"
+source = "git+https://github.com/islet-project/rust-rsi#efe93d2a3e8892cb52ea0e89394db59045df0075"
 dependencies = [
  "bindgen",
  "cc",
